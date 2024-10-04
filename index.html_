@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Kevin's Dating Profile | Yes, really.</title>
+    <script src="script.js"></script>
+    <meta name="description" content="Wow, a website just for dating apps? What a WeiRdO!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=VT323&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0R9DKTHQ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YJ0R9DKTHQ');
+      </script>
+</head>
+
+<body onload="sentence();">
+
+<!-- Header -->
+
+  <header>
+      <h1 class="logo animated pulse" tabindex="0" onfocus="soundMusic();"><span class="rainbow">Kevin‎‏‏‎'s Dating Profile</span></h1>
+      <span class="dotcom" tabindex="0">(dot com)</span>
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake flake1">
+          *
+          </div>
+          <div class="snowflake flake2">
+          *
+          </div>
+          <div class="snowflake flake3">
+          *
+          </div>
+          <div class="snowflake flake1">
+            *
+          </div>
+          <div class="snowflake flake2">
+          *
+          </div>
+          <div class="snowflake flake3">
+          *
+          </div>
+        <div class="snowflake flake1">
+          *
+          </div>
+          <div class="snowflake flake2">
+          *
+          </div>
+          <div class="snowflake flake3">
+          *
+          </div>
+      </div>
+    
+  </header>
+
+<!-- Main Section: Intro -->
+
+<main class="main-content">
+
+        <h2 class="imkevin" tabindex="0">I'm Kevin :)</h2>
+          <section class="intro">
+            <img src="./images/kevin-spinning.gif" onfocus="soundClown();" alt="Kevin spinning around" tabindex="0" >
+              <div class="intro-description">
+                <h2 tabindex="0">Was this really made for online dating!?</h2>
+                <p tabindex="0">In short...yes. Long answer: I'm studying website development and one of my projects is to make a portfolio about myself. I enjoy being silly so why not a website that I can share on my profile? Hopefully this gives you a taste of who I am, makes you smile a bit, and helps you figure out who the Zodiac Killer is. </p>
+                <h2 tabindex="0">Okay — now what?</h2>
+                <p tabindex="0">Learn more about me by scrolling down! View the 'Meeting Kevin POV Simulator', see my interests, learn what others have said about me, and then fill out some information below if you like what you see 😉. By the way, if you would like some chill tunes while you browse -- click/tap on the website title!</p>
+              </div>
+        </section>
+
+
+<!-- Main Section: Meeting Kevin POV Simulator -->
+
+      <section class="POV">
+        <h2 tabindex="0">Meeting_Kevin_POV_v4.2.exe</h2>
+        <p class="small-text" tabindex="0">Using quantum calculations, engineers at Enron have created software using complex dynamic algorithms to show you what it would look like from your own POV (Point of View) when you meet with Kevin. Simply select the randomly generated scenarios below to see what it would look like:</p>
+      
+        <div class="pov-container">
+
+          <!-- POV: Eating Lunch -->
+          <details class="pov-accordion lunch">
+            <summary onclick="ariaButton1(); soundPOV();" id="ariaButton1" role="button" aria-expanded="false"><span class="see" tabindex="0" >Having <strong>dinner</strong> with Kevin.</span><span class="hide" tabindex="0">Yum! Kevin's <strong>deep throat dinner</strong> looks amazing!</span></summary>
+              <div class="content">
+                <img src="./images/kevins-dinner.jpg" onclick="soundDrink();" alt="Kevin drinking Hidden Valley ranch for dinner."  tabindex="0"> 
+              </div>
+          </details>
+
+          <!-- POV: Training BJJ -->
+          <details class="pov-accordion bjj">
+            <summary onclick="ariaButton2(); soundPOV();" id="ariaButton2" role="button" aria-expanded="false"><span class="see" tabindex="0" >Kevin showing you his <strong>jiu-jitsu</strong> skills.</span><span class="hide" tabindex="0">Woah!! <strong>Please</strong> put down the gun!</span></summary>
+              <div class="content">
+                <img src="./images/kevin-bjj.jpg" onclick="soundMgs();" alt="Kevin scared shitless because a gun is being pointed at him."  tabindex="0">
+              </div>
+          </details>
+
+          <!-- POV: Smelling Farts -->
+          <details class="pov-accordion fart">
+            <summary onclick="ariaButton3(); soundPOV();"  id="ariaButton3" role="button" aria-expanded="false"><span class="see" tabindex="0" ><strong>Farting</strong> in front of Kevin and he pretends not to notice.</span><span class="hide" tabindex="0">Whew! He didn't notice your <strong>wet loud farts</strong>!</span></summary>
+              <div class="content">
+                <img src="./images/kevin-fart.jpg" onclick="soundFartDeath();" alt="Kevin trying not to throw up after smelling wet farts."  tabindex="0">
+              </div>
+          </details>
+
+          <!-- POV: Sleeping -->
+          <details class="pov-accordion sleep">
+            <summary onclick="ariaButton4(); soundPOV();" id="ariaButton4" role="button" aria-expanded="false"><span class="see" tabindex="0">In bed next to Kevin while he <strong>sleeps</strong> after he watches anime.</span><span class="hide" tabindex="0"> Aww, look at how <strong>cute</strong> he looks when he sleeps.</span></summary>
+              <div class="content">
+                <img src="./images/kevin-sleeps.jpg" onclick="soundSleep();" alt="Kevin sleeping with an eyemask like Kakashi sensei  ."  tabindex="0">
+              </div>
+          </details>
+
+          <!-- POV: Big Cock -->
+          <details class="pov-accordion cock">
+            <summary onclick="ariaButton5(); soundPOV();" id="ariaButton5" role="button" aria-expanded="false"><span class="see" tabindex="0">Kevin and his <strong>huge</strong> cock.</span><span class="hide" tabindex="0">Wow, that Kevin really does have a <strong>huge</strong> cock!</span></summary>
+              <div class="content">
+                <img src="./images/kevins-cock.jpg" onclick="soundCock();" alt="Kevin holding a picture of his cock"  tabindex="0">
+              </div>
+          </details>
+        </div>
+       </section>
+
+<!-- Main Section: About Kevin --> 
+
+<section id="about">
+  <h2 class="more-title" tabindex="0">More About Kevin</h2>
+    <p class="more-small-text" tabindex="0">Here are some things I like. <br> Tap an item for more details!</p>
+    <p class="more-small-text-desktop" tabindex="0">Here are some things I like. <br>  Hover over an item for more details!</p>
+
+  <div class="about-grid flex-container"> 
+
+<!-- About: Interests -->
+<section class="about-section">
+  <div class="about-icon">
+    <img src="./images/about-smile-face-s.png" class="spinning" alt="Kevin smiling and showing his teeth spinning infinitely" onclick="soundFart1();" tabindex="0">
+  </div>
+  <h3 tabindex="0" aria-label="A list of Kevin's interest">Interests</h3>
+  <ul>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Empathy<aside class="tooltiptext" aria-hidden="false">I spent a lot of time recently on finding a mental balance within myself and it led me to accept my empathy a lot more. I will now openly admit that I cry in movies, and it feels good. 😭</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Eating/Food<aside class="tooltiptext"  aria-hidden="false">I used to be fat so I have a love/hate relationship wtih food. "Please be inside me all the time but please don't make me too fat."</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Sci-Fi Stories<aside class="tooltiptext"  aria-hidden="false">Bladerunner, Dark Matter (Blake Crouch), Akira, Ghost in the Shell (anime), and Ender's Game (book) are some of my favorite stories. Always open to suggestions.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Martial Arts<aside class="tooltiptext"  aria-hidden="false">I have trained BJJ for around 5 years and have been watching MMA for around 7 years. Martial arts is the only sport I really have time to watch as well.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Art/Design<aside class="tooltiptext"  aria-hidden="false">I don't have a favorite artist but I really enjoy looking at and learning about art and design. I didn't grow up as a creative kid but I sure embrace it now.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Microsoft Office 2006<aside class="tooltiptext"  aria-hidden="false"> 📎 Clippy disappeared in 2007 and I still need Clippy to help me write material...📎</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext"><span class="strike">Masturbation</span><aside class="tooltiptext"  aria-hidden="false">Shit, how did this get in here!? Why can't I delete this either? What the f</aside></li>
+  </ul>
+</section>
+
+<!-- About: Hobbies -->
+<section class="about-section">
+  <div class="about-icon">
+    <img src="./images/about-surprised-face-s.png" class="spinning" alt="Kevin looking surprised spinning infinitely" onclick="soundFart2();" tabindex="0">
+  </div>
+  <h3 tabindex="0" aria-label="A list of Kevin's hobbies">Hobbies</h3>
+  <ul>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Brazilian Jiu-Jitsu<aside class="tooltiptext"  aria-hidden="false">Training for about 5 years now. Yes, I can show you BJJ on a first date. Closed guard can be optional.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Cooking<aside class="tooltiptext"  aria-hidden="false">I lost a lot of weight by learning how to cook and measure food so it gave me a lot of opportunities to learn about cooking. Favorite thing to cook? Slow cooked stews or a simple creamy scrambled egg with all the fix'ns.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Disc Golf<aside class="tooltiptext"  aria-hidden="false">It's like normal golf but with specialized discs. I'm not very good but it's basically hiking with quests to finish.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Dungeons & Dragons<aside class="tooltiptext"  aria-hidden="false">I roll dice and roleplay pretending to be fantasy character in a made up world up for fun. I typically don't like to brag, but I'm level 2 ;)</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Yoga<aside class="tooltiptext"  aria-hidden="false">I currently only do 10-15 minutes of yoga every morning through a Yoga app but it has really assisted me in my emotional and mental health. Would love to do yoga with others one day.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Reading<aside class="tooltiptext"  aria-hidden="false">Big fan of reading a good novel but unfortunately have not had the time for it...been making dumb websites instead. Crime & Punishment, Machine of Death, Hard-Boiled Wonderland and the End of the World, Game of Thrones, Ender's Game, and Dark Matter are some of my favorites.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">YouTube<aside class="tooltiptext"  aria-hidden="false">Sometimes I go down a deep rabbit hole of YouTube genres. Microbes growing in jars? Check. Eating old MREs from the 60s? Check. Kpop reaction videos? Check. </aside></li>
+  </ul>
+</section>
+
+<!-- About: Foods -->
+<section class="about-section">
+  <div class="about-icon">
+    <img src="./images/about-cheeky-face-s.png" class="spinning" alt="Kevin holding his breathe spinning infinitely" onclick="soundFart3();" tabindex="0">
+  </div>
+  <h3 tabindex="0" aria-label="A list of Kevin's favorite foods">Foods</h3>
+  <ul>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Pizza<aside class="tooltiptext left"  aria-hidden="false">🍕 How could you not? Pepperoni, mushrooms, jalapenos, and olives are my toppings of choice. 🍕</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Bánh mì<aside class="tooltiptext left"  aria-hidden="false">A Vietnamese sandwich — has a lot of nostalgia for me since this is one of my favorite childhood treats. Will you be my dac biệt lady?</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Tres leches cake<aside class="tooltiptext left"  aria-hidden="false">I'm on the hunt to find an amazing tres leches cake. Please inquire if you know of one!</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Shishito Peppers<aside class="tooltiptext left"  aria-hidden="false">I love me some sweet and mildly burning Japanese peppers. Especially great when blistered and mixed with miso.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Burritos<aside class="tooltiptext left"  aria-hidden="false">One of my favorite late night treats. I love Mexican restaurants that close late and fulfills that hungry late night stoner in me.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Sushi<aside class="tooltiptext left"  aria-hidden="false">Sushi is basically tiny bite-sized rice bowls and I love rice. I'm sure you can understand why. </aside></li>
+  </ul>
+</section>
+
+<!-- Interests -->
+<section class="about-section">
+  <div class="about-icon">
+    <img src="./images/about-smile-face-2-s.png" class="spinning" alt="Kevin smiling with no teeth holding spinning infinitely" onclick="soundFart4();" tabindex="0">
+  </div>
+  <h3 tabindex="0" aria-label="A list of Kevin's favorite creatures">Creatures</h3>
+  <ul>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Dogs<aside class="tooltiptext left"  aria-hidden="false">Family has a dog and I used to be a dog-daddy with my ex. Unfortunately I don't see my dog-daughter anymore but she will always be in my heart. 💖</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Cats<aside class="tooltiptext left"  aria-hidden="false">I've always been a fan of cats since they can simultaneously be cool and cute.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Octopuses<aside class="tooltiptext left"  aria-hidden="false">..or Octopi? They can change their body to hide among the environment, recognize people, use tools, and are overall just really cool intelligent creatures. </aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">Elephants<aside class="tooltiptext left"  aria-hidden="false">I've seen videos of elephants that remember people and express a bunch of human emotions like sadness and happiness. That's pretty rad.</aside></li>
+    <li class="tooltip" tabindex="0" aria-describedby="tooltiptext">You 🙃<aside class="tooltiptext left"  aria-hidden="false">😉😉 <em>Teehee. </em> 😉😉</aside></li>
+  </ul>
+</section>
+
+  </div>
+</section>
+
+<!-- Main Section: Reviews --> 
+
+<section class="review-section">
+<h2 class="more-title" tabindex="0">Reviews</h2>
+
+<p tabindex="0">Unfortunately, we couldn't get real people to send reviews in time so instead we created an advanced AI to generate what people WOULD say about Kevin. Using advanced Turian technology, the AI analyzes real human language to determine what actual human reviews of Kevin would say with an accuracy rate of 16%. Please enjoy:</p>
+
+<div class="reviews">
+  <button class="generate shake animated" role="button" onclick="sentence(); soundGenerate();" tabindex="0" aria-label="Button to Generate Genuine Review">Generate "Genuine" Review</button>
+  <div id="sentence" tabindex="0"></div>
+</div>
+</section>
+
+<!-- Main Section: Contact Form --> 
+<form>
+  <div class="windows">
+      <div class="windows-header">
+          <h3 tabindex="0">Contact Form<span class="window-button" onclick="soundError();" aria-hidden="true">X</span><span class="window-button small-butt" onclick="soundError();" aria-hidden="true">_</span><span class="window-button" onclick="soundError();" aria-hidden="true">?</span></h3>
+          
+      </div>
+      <div class="windows-body" tabindex="0">
+        <p aria-label="Yes, you can also just message me on apps but this way is more fun! If you've made it this far, fill out the contact form below and let's see where this goes. 🙃">Yes, you can also just message me on appz but this way is more fun! If you've made it this far, fill out the contact form below and let's see where this goes. 🙃</p>
+        <div class="form1" id="wufoo-zglj4tw1say5nn"> Fill out my <a href="https://kevinstinderwebsite.wufoo.com/forms/zglj4tw1say5nn">online form</a>. </div> <script> var zglj4tw1say5nn; (function(d, t) { var s = d.createElement(t), options = { 'userName':'kevinstinderwebsite', 'formHash':'zglj4tw1say5nn', 'autoResize':true, 'height':'1301', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zglj4tw1say5nn = new WufooForm(); zglj4tw1say5nn.initialize(options); zglj4tw1say5nn.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+      </div>
+  </div>
+</form>
+
+<!-- Main Section: Footer -->
+    <footer>
+      <div class="flier" onclick="randomAstro();"><img src="./images/astro.png" aria-hidden="true" ></div>
+      <span tabindex="0" aria-label="©2021 Design and built by Kevin in California. This page is protected by Bonzi Buddy and Clippy">©2021 Design and built by Kevin in California. This page is protected by <a href="https://en.wikipedia.org/wiki/BonziBuddy" onClick="return confirm('You will be taken to the Wikipedia article on Bonzi Buddy, do you want to view it now?')" aria-label="Link to a Wikipedia article on who Bonzi Buddy is">BonziBUDDY</a> and <a href="https://en.wikipedia.org/wiki/Office_Assistant" onClick="return confirm('You will be taken to the Wikipedia article on Clippy, do you want to view it now?')" aria-label="Wikipedia article on who Clippy is">Clippy</a>.</span>
+    </footer>
+    <a href="https://www.wikihow.com/Flirt-with-a-Guy" onClick="return confirm('You will be taken to an article on how to Flirt with Guys, do you want to view it now?')" target="_blank"><img class="clippy" src="./images/clippy.gif"  alt="Link to a  Clippy from Microsoft offering help on how to flirt with a guy."></a>
+    <img class="peeking animated flip" src="./images/peeking.png" onfocus="soundBoing();" alt="Kevin peeking left and right at the bottom of the screen" tabindex="0">
+    
+</main> 
+</body>
+
+
+
+</html>
